@@ -1,0 +1,503 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    background-color: aliceblue;
+    font-family: sans-serif;
+}
+
+.nav{
+    position:fixed;
+    top: 5;
+    background-color: rgb(2, 36, 2);
+    width: 100%;
+    height: 15%;
+}
+
+.nav>ul{
+    display: flex;
+    justify-content: center;
+}
+.nav ul li{
+    list-style: none;
+    padding: 20px;
+    margin-top: 10px;
+
+}
+
+.nav ul li a{
+    color:aliceblue;
+    text-decoration: none;
+
+
+
+}
+.logo img{
+    width: 9%;
+    position: absolute;
+    top: 12px;
+    left: 70px;
+}
+
+.btn{
+    position: absolute;
+    left: 1200px;
+    width: 12%;
+    height: 35%;
+    bottom: 55px;
+    font-weight: 600;
+    background-color: rgb(2, 36, 2);
+    border: 3px solid rgba(235, 56, 116, 0.95);
+    border-radius: 10px;
+}
+
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+.btn:hover{
+    border: solid rgb(6, 168, 6) 3px;
+
+
+}
+
+.nav .fa{
+    position: absolute;
+    top: 27px;
+    margin-left: 8px;
+}
+
+.fang{
+    display: none;
+    position: absolute;
+   margin-bottom: -15px;
+   background-color:rgb(2, 36, 2); 
+   width: 160px;
+   height: 200px; 
+
+}
+.fang ul li{
+    padding: 5px;
+    margin-top: 20px;
+
+}
+.fang ul li a{
+    margin-left: 20px;
+    font-size: 0.9em;
+    padding:10px ;
+
+
+}
+.nav ul li:hover .fang  {
+   display: block;
+}
+.fang ul li:hover{
+    background-color:rgba(235, 56, 116, 0.95);
+
+}
+.body{
+
+    background-color: rgb(12,43,27);
+    
+     width: 100%;
+     height: 100%;
+}
+.right{
+float: left;
+width: 50%;
+}
+.right .pc{
+    position: absolute;
+    top:290;
+    width: 40%;
+    left: 670px;
+}
+.right .mobile{
+    width: 13%;
+    position: absolute;
+    top: 370px;
+    left: 650;
+
+}
+.left{
+    float: left ;
+    width: 50%;
+}
+.left h2{
+    color:rgb(52, 209, 134);
+    font-size: 2.6em;
+    font-weight: 700;
+    position: relative;
+    top: 150px;
+    left: 70;
+}
+.left h3{
+    position: relative;
+    top: 170px;
+    left: 70;
+    color: white;
+    font-size: 1.3em;
+    font-weight:100 ;
+}
+
+ #btn1{
+    position: relative;
+    top: 200px;
+    left: 70px;
+    background-color:rgba(235, 56, 116, 0.95) ;
+    padding: 15px 30px;
+    border-radius: 7px;
+    border: none;
+}
+#btn1 a{
+    text-decoration: none;
+    color: white;
+}
+
+#btn2{
+    position: absolute;
+    top: 550px;
+    left: 75px;
+    padding: 10px 50px;
+    background-color:rgb(12,43,27) ;
+    border: 2px solid rgb(52, 209, 134) ;
+    border-radius: 7px;
+
+}
+
+
+#btn2 a , #btn3 a{
+    text-decoration: none;
+    color:white; 
+    line-height: 20px;
+    margin-left: 20px;
+
+
+}
+#btn2 a span, #btn3 a span {
+    text-decoration: none;
+    color:white; 
+    margin-left: 10px;
+    font-size: 1.2em;
+
+}
+.apple{
+    position:absolute ;
+    top: 545px;
+    width: 4.6%;
+    left: 75px;
+}
+
+#btn3{
+    position: absolute;
+    top: 549px;
+    left: 290px;
+    padding: 10px 50px;
+    background-color:rgb(12,43,27) ;
+    border: 2px solid rgba(235, 56, 116, 0.95) ;
+    border-radius: 7px;
+
+}
+
+
+.playstore{
+    position:absolute ;
+    top: 549px;
+    width: 4.1%;
+    left: 290px;
+}
+
+#text4{
+    position: relative;
+    text-align: center;
+    top: 100px;
+}
+
+#text4 .write1{
+    margin-top: 400px;
+    font-size: 2.5em;
+    color: rgb(12,43,27) ;;
+
+}
+.write2{
+    font-size: 1.3em;
+    opacity: 0.5;
+}
+
+.middle{
+    margin-top: 200px;
+    background-color: rgba(220, 234, 219, 0.904);
+    width: 100%;
+    height: 500px;
+
+}
+.left1{
+    float: left;
+    width: 50%;
+    
+}
+
+.left1 img{
+    width: 75%;
+    border-radius: 15px;
+    margin-top: 100px;
+    margin-left: 180px;
+    box-shadow: 5px 7px 7px;
+    
+}
+.right1{
+    float: left;
+    width: 50%;
+}
+.right1 h2{
+    font-size: 2.9em;
+    margin-top: 150px;
+    margin-left: 200px;
+    color:rgb(12,43,27)  ;
+}
+.right1 p{
+    margin-top: 20px;
+    margin-left: 200px;
+    font-size: 1.6em;
+    opacity: 0.6;
+
+}
+.btn4{
+    padding: 15px 30px;
+    background-color:rgba(235, 56, 116, 0.95)  ;
+    margin-left: 200px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+}
+.btn4:hover{
+    background-color:rgb(52, 209, 134) ; 
+}
+.btn4 a{
+    color: white;
+    text-decoration: none;
+}
+.middle2{
+   margin-top: 100px;
+   height: 600px;
+}
+.left2{
+    margin-top: 50px;
+    float: left;
+    width: 50%;
+
+}
+
+.left2 h2{
+    font-size: 2.9em;
+    color:rgb(12,43,27) ;
+    margin-left: 150px;
+    margin-top: 80px;
+}
+.left2 p{
+    font-size: 1.5em;
+    opacity: 0.6;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.right2{
+    margin-top: 50px;
+    float: left;
+    width: 50%;
+}
+.right2 img{
+    width: 75%;
+    border-radius: 20px;
+    bottom: 30;
+}
+
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(12,43,27);
+}
+.image2{
+
+width: 25%;
+height: 100%;
+float: left;
+}
+.image2 img{
+    width: 35%;
+    margin-left: 80px;
+    margin-top: 60px;
+}
+.image2 li{
+    margin-top: 10px;
+    list-style-type: none;
+
+}
+
+.image2 a{
+    margin-left: 80px;
+    font-size: 0.9em;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+.image2 a:hover{
+    color: rgba(235, 56, 116, 0.95);
+
+}
+.comp{
+    float: left;
+    width:25%;
+    height: 100%;
+
+}
+
+.legal{
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+
+.update{
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+
+.comp h2, .legal h2, .update h2{
+    color: white;
+    margin-top: 40px;
+    font-size: 1.2em;
+
+}
+
+.comp li, .legal li , .update p{
+    padding: 15px 0 ;
+    list-style-type: none;  
+}
+
+.comp a, .legal a, .update p{
+    text-decoration: none;
+    color: white;
+    margin-right: 5px;
+
+}
+
+#Email{
+    margin-top: 20px;
+    width: 85%;
+    height: 70px;
+    border-radius: 40px;
+    padding-left: 20px;
+    font-size: 1.2em;
+    border: none;
+}
+.header-image img{
+    width: 16%;
+    margin-top:80px ;
+    margin-left: 150px;
+
+
+}
+.page-left{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.page-right{
+    float: left;
+    width: 50%;
+    height: 150%;
+    background-color: #03924F;
+}
+.signup-btn{
+    width: 17%;
+    height: 40px;
+    margin-left: 270px;
+    margin-top: 50px;
+    border-radius: 5px;
+    border: 2px solid #03924F;
+    background-color: white;
+
+}
+.signup-btn a{
+    text-decoration: none;
+    color: #03924F;
+}
+.signup-btn:hover{
+    background-color: rgba(239, 233, 226, 0.896);
+}
+.section-1 h2{
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.section-1 p{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.section-1 p a{
+    color: #03924F;
+    font-weight:400 ;
+
+}
+
+.section-2{
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.input{
+    width: 80%;
+    border: none;
+    border-bottom:2px solid gray;
+    opacity: 0.5;
+    outline: none ;
+    background: transparent;
+    margin-top: 20px;
+    padding-left: 60px;
+    font-size: 1.0em;
+    padding-bottom: 30px;
+
+}
+
+.fa-user, .fa-envelope, .fa-key, .fa-phone, .fa-eye-slash{
+    color: #03924F;
+    font-size: 1.2em;
+}
+
+.fa-eye-slash{
+    margin-left: 300px;
+}
+.section-2 label{
+    color: gray;
+}
+.section-2 p{
+    font-size: 0.7em;
+}
+
+.section-2 .btn-signup{
+    margin-top: 100px;
+    background-color: #03924F;
+    width: 16%;
+    height: 45px;
+    margin-left: 390px;
+    border: none;
+    border-radius: 3px;
+
+}
+.section-2 .btn-signup a{
+    color: white;
+    text-decoration: none;
+}
+.section-2 .btn-signup:hover{
+    background-color:  #066d3d;
+}
+.section-2 label{
+position: relative;
+left: 20px;
+}
