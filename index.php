@@ -1,3 +1,6 @@
+<?php
+include("connection.php");
+?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,6 +9,7 @@
     <link rel="stylesheet" href="Css/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
 </head>
+
 <body>
     <div class="page-left">
     <header class="header-image">
@@ -16,11 +20,11 @@
 <section class="section-1">
     <h2>Get started</h2>
     <p>All the details provided below will be verified </p>
-    <p>Already have an account?<a href="singin.html">Login</a></p> 
+    <p>Already have an account?<a href="singin.php">Login</a></p> 
         
 </section>
 <section class="section-2">
-    <form action="">
+    <form action="signupform.php" method="POST">
         <i class="fa-solid fa-envelope"></i>
         <label for="Email">Email *</label> <br>
         <input type="text" name="Email"  class="input">
@@ -29,35 +33,35 @@
         <br>
         <i class="fa-regular fa-user"></i>
         <label for="First name">First name *</label> <br>
-        <input type="text" name="Email"  class="input">
+        <input type="text" name="FirstName"  class="input">
          <br>
         <p>enter names as it appears on your bank account </p>
         <br>
 
         <i class="fa-regular fa-user"></i>
         <label for="">Last name *</label> <br>
-        <input type="text" name="Last-name"  class="input">
+        <input type="text" name="LastName"  class="input">
          <br>
         <p>enter names as it appears on your bank account </p>
         <br>
 
         <i class="fa-solid fa-phone"></i>
         <label for="Phone number ">Phone Number  *</label> <br>
-        <input type="text" name="Phone-number "   class="input">
+        <input type="text" name="PhoneNumber"   class="input">
          <br>
         <p>you'll verify your phone number during bank transfer  </p>
         <br>
 
         <i class="fa-solid fa-key"></i>
         <label for="password">Password * <i class="fa-regular fa-eye-slash"></i></label> <br>
-        <input type="text" name="Email"   class="input">
+        <input type="password" name="Password"   class="input">
             <br>
             <br>
             <i class="fa-regular fa-user"></i>
         <label for="Referral code ">Rerferral code  (optional) </label> <br>
-        <input type="text" name="Referral-code "   class="input">
+        <input type="text" name="ReferralCode"   class="input">
             <br>
-            <button type="submit" class="btn-signup"><a href="#">Sign Up</a></button>
+            <button type="submit" class="btn-signup" name="Create_customer"> Sign Up </button>
     
 
     </form>
